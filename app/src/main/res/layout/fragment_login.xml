@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginFragment"
+    android:background="@drawable/ic_endless_constellation">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LOGIN"
+                android:textAlignment="center"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/round_edit_text"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColorHint="#AAA"
+                android:padding="15dp" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:background="@drawable/round_edit_text"
+                android:hint="Password"
+                android:textColorHint="#AAA"
+                android:padding="15dp"
+                android:layout_marginTop="25dp" />
+
+            <Button
+                android:id="@+id/loginBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="Login"
+                android:background="@drawable/round_elevated_button"
+                android:textColor="#fff"
+                android:textSize="8pt"
+                android:padding="20dp" />
+
+            <TextView
+                android:id="@+id/go_to_register"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="7pt"
+                android:text="New User? Sign-Up Here"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:textColor="#FFF" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

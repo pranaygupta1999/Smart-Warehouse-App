@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterFragment"
+    android:background="@drawable/ic_endless_constellation">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/register_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:padding="15dp"
+                android:textColorHint="#AAA" />
+
+            <EditText
+                android:id="@+id/register_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:padding="15dp"
+                android:textColorHint="#AAA" />
+
+            <EditText
+                android:id="@+id/register_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="15dp"
+                android:textColorHint="#AAA" />
+
+            <EditText
+                android:id="@+id/register_confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+
+                android:hint="Re-type Password"
+                android:inputType="textVisiblePassword"
+                android:padding="15dp"
+                android:textColorHint="#AAA" />
+
+            <Button
+                android:id="@+id/registerBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/round_elevated_button"
+                android:padding="20dp"
+                android:text="Register"
+                android:textColor="#fff"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/go_to_login"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="7pt"
+                android:text="Existing user? Login instead"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:textColor="#FFF" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

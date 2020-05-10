@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "696397706479",
+    "firebase_url": "https://smart-warehouse-es.firebaseio.com",
+    "project_id": "smart-warehouse-es",
+    "storage_bucket": "smart-warehouse-es.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696397706479:android:80c33b0c45b3207995571a",
+        "android_client_info": {
+          "package_name": "com.pranay.smartwarehouse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696397706479-ul9od094etbs7br6t1ijrfj14gvfjndt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pranay.smartwarehouse",
+            "certificate_hash": "f392e5ce3a1383ece03e2a402e061e5ee3b3bf3b"
+          }
+        },
+        {
+          "client_id": "696397706479-rrqefvo4o4iq6fp6rvn23d7d3mn657qf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMldEwKZZNLd7GEezJEzjIOVTwekNxu1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696397706479-rrqefvo4o4iq6fp6rvn23d7d3mn657qf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
